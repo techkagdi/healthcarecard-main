@@ -1,0 +1,134 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css1/report.css">
+</head>
+<body>
+
+    <!--Side panels-->
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">HealthCard</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="Scanner.php">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Scan Card</span>
+          </a>
+        </li>
+        <li>
+          <a href="setting.php">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Settings</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+   <!--side panel ends-->
+  <!--navbar section starts-->
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="profile-details">
+        <img src="images/download.jpg" alt="">
+        <span class="admin_name">EmailID</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+ <!--navbar section ends-->
+ 
+ <!--user image and details here-->
+ <div class="home-content">
+  <div class="overview-boxes">
+    <div class="box">
+      <div class="right-side">
+          <img src="images1/images (2).jpg" class="images">
+        <div class="number">Name<br/>
+         
+        </div>
+        <h6 style="text-align:left;margin-left:90px;">Address</h6>
+         <h6 style="text-align:left;margin-left:90px;">Mobile No</h6>
+         <h6 style="text-align:left;margin-left:90px;">BirthDate</h6>
+         <h6 style="text-align:left;margin-left:90px;">Age</h6>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="right-side">
+          <div class="box-topic">EMERGENCY DETAILS</div><br>
+        <div class="number">Phone number: </div><br>
+        <div class="number">Contact Name:   </div><br>
+        <div class="number">Relation:   </div><br>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="sales-boxes">
+    <div class="recent-sales box">
+      <div class="title" style="text-align:left;margin-left:50px;">REPORT DETAILS</div>
+      <div class="sales-details">
+      <table>
+    <tr id="header">
+        <th>First name</th>
+        <th>Medicines</th>
+        <th>Symptoms</th>
+        <th>Diagnosis date</th>
+        <th>Dr Suggestion</th>
+        <th>Report</th>
+        <th>Current Condition</th>
+        <th>Diseases cure date</th>
+    </tr>
+    <tr>
+        <td>John </td>
+        <td>Doe </td>
+        <td>25 </td>
+        <td>USA </td>
+        <td>Male </td>
+
+    </tr>  
+</table>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <script src="js1/dr.js"></script>
+
+</body>
+</html>
+
+
